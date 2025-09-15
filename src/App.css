@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  min-width: 50vh;
+  min-height: 50vh;
+  display: flex;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.center-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 300px;
+  background-color: black;
+}
+
+.pad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 20vh;
+  min-height: 20vh;
+  margin: 25px;
+}
+
+.pad:hover {
+  cursor: pointer;
+}
+
+.pad-0 {
+  top: 5%;
+  left: 4%;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.pad-1 {
+  top: 5%;
+  left: 45%;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.pad-2 {
+  top: 45%;
+  left: 4%;
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.pad-3 {
+  top: 45%;
+  left: 45%;
+  border-bottom-right-radius: 300px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
